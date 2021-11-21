@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="101202" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -44,7 +44,7 @@
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="165" y="288" width="726" height="397"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="15">
                 <rect key="frame" x="0.0" y="0.0" width="726" height="397"/>
@@ -54,11 +54,11 @@
                         <rect key="frame" x="5" y="35" width="714" height="329"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <clipView key="contentView" id="r2k-xx-JPL">
-                            <rect key="frame" x="1" y="0.0" width="712" height="328"/>
+                            <rect key="frame" x="1" y="1" width="712" height="327"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" headerView="266" id="19">
-                                    <rect key="frame" x="0.0" y="0.0" width="714" height="303"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="723" height="302"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -274,8 +274,8 @@
                             <rect key="frame" x="698" y="17" width="15" height="311"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <tableHeaderView key="headerView" id="266">
-                            <rect key="frame" x="0.0" y="0.0" width="714" height="25"/>
+                        <tableHeaderView key="headerView" wantsLayer="YES" id="266">
+                            <rect key="frame" x="0.0" y="0.0" width="723" height="25"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
@@ -366,7 +366,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="175" y="298" width="386" height="122"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="216">
                 <rect key="frame" x="0.0" y="0.0" width="386" height="122"/>
@@ -398,12 +398,12 @@ DQ
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="219">
                         <rect key="frame" x="15" y="45" width="75" height="58"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Fuji" id="257"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="fuji3D" id="257"/>
                     </imageView>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="220">
                         <rect key="frame" x="147" y="61" width="122" height="22"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="258">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="258">
                             <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="221">
                                 <attributedString key="attributedStringForNil"/>
                                 <attributedString key="attributedStringForNotANumber">
@@ -425,12 +425,13 @@ DQ
                     </textField>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="139" y="501"/>
         </window>
         <window title="Goto Sector Number..." allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="235" userLabel="Confirm">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="195" y="278" width="386" height="122"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="236">
                 <rect key="frame" x="0.0" y="0.0" width="386" height="122"/>
@@ -462,7 +463,7 @@ DQ
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="241">
                         <rect key="frame" x="15" y="45" width="75" height="58"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Fuji" id="261"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="fuji3D" id="261"/>
                     </imageView>
                     <button verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="242">
                         <rect key="frame" x="99" y="12" width="82" height="32"/>
@@ -480,9 +481,10 @@ Gw
                     </button>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="139" y="-236"/>
         </window>
     </objects>
     <resources>
-        <image name="Fuji" width="128" height="128"/>
+        <image name="fuji3D" width="60" height="60"/>
     </resources>
 </document>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment version="101202" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -37,7 +37,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="65" y="77" width="623" height="381"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="15">
                 <rect key="frame" x="0.0" y="0.0" width="623" height="381"/>
@@ -47,17 +47,17 @@
                         <rect key="frame" x="39" y="75" width="299" height="274"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <clipView key="contentView" id="sGd-K5-QyI">
-                            <rect key="frame" x="1" y="0.0" width="297" height="273"/>
+                            <rect key="frame" x="1" y="1" width="297" height="272"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" autosaveColumns="NO" headerView="159" floatsGroupRows="NO" id="19" customClass="Atari800TableView">
-                                    <rect key="frame" x="0.0" y="0.0" width="297" height="248"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="297" height="247"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn editable="NO" width="294" minWidth="8" maxWidth="1000" id="5">
+                                        <tableColumn editable="NO" width="285" minWidth="8" maxWidth="1000" id="5">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
@@ -85,7 +85,7 @@
                             <rect key="frame" x="-30" y="17" width="15" height="189"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <tableHeaderView key="headerView" id="159">
+                        <tableHeaderView key="headerView" wantsLayer="YES" id="159">
                             <rect key="frame" x="0.0" y="0.0" width="297" height="25"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
@@ -163,7 +163,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <popUpButtonCell key="cell" type="push" title="MAIN" bezelStyle="rounded" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="26" id="148">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="22">
                                 <items>
                                     <menuItem title="MAIN" state="on" id="26"/>
@@ -266,7 +266,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="369" y="302" width="348" height="126"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="114">
                 <rect key="frame" x="0.0" y="0.0" width="348" height="126"/>
@@ -326,7 +326,7 @@ Gw
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="221" y="434" width="386" height="122"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <value key="minSize" type="size" width="81" height="2"/>
             <view key="contentView" id="123">
                 <rect key="frame" x="0.0" y="0.0" width="386" height="122"/>
@@ -358,13 +358,14 @@ DQ
                     <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="126">
                         <rect key="frame" x="15" y="45" width="75" height="58"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Fuji" id="155"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="fuji3D" id="155"/>
                     </imageView>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="139" y="485"/>
         </window>
     </objects>
     <resources>
-        <image name="Fuji" width="128" height="128"/>
+        <image name="fuji3D" width="60" height="60"/>
     </resources>
 </document>

@@ -1591,6 +1591,7 @@
 		2DAEDBCE09B69AED005FF181 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
@@ -1623,7 +1624,7 @@
 					"-lm",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atarimac.atari800macx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delooxe.atari;
 				PRODUCT_NAME = Atari800MacX;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
@@ -1641,6 +1642,7 @@
 		2DAEDBCF09B69AED005FF181 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = YES;
@@ -1670,7 +1672,7 @@
 					"-lm",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atarimac.atari800macx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delooxe.atari;
 				PRODUCT_NAME = Atari800MacX;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
@@ -1688,6 +1690,7 @@
 		2DAEDBD009B69AED005FF181 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1726,7 +1729,7 @@
 					"-lm",
 					"-lz",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atarimac.atari800macx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delooxe.atari;
 				PRODUCT_NAME = Atari800MacX;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
